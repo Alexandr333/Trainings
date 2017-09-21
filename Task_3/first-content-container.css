@@ -1,0 +1,17 @@
+.first-content-container div:nth-child(2n){
+    color:red;
+    font-size:1em;
+}
+.first-content-container div:nth-child(2n+1){
+    color:green;
+    font-size:1em;
+}
+.first-content-container div:nth-child(n+5):nth-child(even){
+    text-decoration: underline;
+}
+.first-content-container div:nth-child(-n+4){
+    text-transform:lowercase;
+}
+.first-content-container div:nth-child(n+5){
+    text-transform:uppercase;
+}
