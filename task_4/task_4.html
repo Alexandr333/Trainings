@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form class="form-for-event-registration" action="./assets/valid.html" target="result-frame" >
+            <div class="section-name">Event name</div>
+            <div>Mel's birthday celebration</div>
+            <hr/>
+            <table class="table-for-inputs">
+                <tr>
+                    <td colspan="2">
+                        <div class="section-name">From</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="input-date-from" type="date" required min="2017-09-23">
+                        <label>Date occurs in the past</label>
+                    </td>
+                    <td>
+                        <input class="input-time-from" value="17:15" type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="section-name">To</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="input-date-to" type="date"required min="2017-09-23">
+                        <label>Date occurs in the past</label>
+                    </td>
+                    <td>
+                        <input class="input-time-to" value="09:15" type="time">
+                    </td>
+                </tr>
+            </table>
+            <div class="section-name">Description</div>
+            <div>Come help celebrate Mel's birthday with dinner, drinks and putt-putt</div>
+            <button type="submit" ></button>
+            <iframe src="./assets/invalid.html" name="result-frame"></iframe>
+        </form>
+    </div>
+</body>
+</html>

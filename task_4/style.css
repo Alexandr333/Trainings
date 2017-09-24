@@ -1,0 +1,87 @@
+.form-for-event-registration{
+    margin: 0 auto;
+    width:300px;
+    background-color:#Fbfbfb;
+    padding:10px;
+    
+    font-size:17px;
+    line-height:1.5;
+    font-family: Roboto, Helvetica Neue,sans-serif;
+}
+.form-for-event-registration:invalid button{
+    background-image: url(assets/invalid.png);
+    background-size: cover;
+}
+.form-for-event-registration:valid button{
+    background-image: url(assets/valid.png);
+    background-size: cover;
+}
+.form-for-event-registration button{
+    width:100px;
+    height:100px;
+    float:right;
+    border:none;
+}
+.table-for-inputs{
+    max-width:300px;
+    padding:0px;
+    margin-left:-1px;
+    margin-bottom:5px;
+    vertical-align: top;
+}
+.table-for-inputs td{
+    margin:0px;
+    padding:0px;
+    vertical-align: top;
+}
+.table-for-inputs tr td:only-of-type{
+    padding-right:0px;;
+}
+.table-for-inputs td:nth-child(2n-1){
+    width:75%;
+    padding-right:5%;
+}
+.table-for-inputs td:nth-child(2n){
+    width:25%;
+}
+.input-date-from:invalid + label{
+    display:block;
+    color:red;
+}
+.input-date-from:invalid{
+    border-bottom:2px solid red;
+}
+.input-date-to:invalid + label{
+    display:block;
+    color:red;
+}
+.input-date-to:invalid{
+    border-bottom:2px solid red;
+}
+.section-name{
+    font-size:0.8em;
+    color:#bbb;
+}
+iframe{
+    clear:both;
+    width:300px;
+}
+input{
+    width:100%;
+}
+label{
+    display:block;
+    font-size:0.8em;
+    display:none;
+}
+input{
+    font-size:17px;
+    font-family:Roboto, Helvetica Neue,sans-serif;
+    border:none;
+}
+hr{
+    border:none;
+    color: #eee;
+    background-color: #ddd; 
+    height:1px;
+}
