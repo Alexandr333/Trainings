@@ -7,6 +7,7 @@ Repository for frontend trainings
 * [Task 2](#task-2)
 * [Task 3](#task-3)
 * [Task 4](#task-4)
+* [Task 5](#task-5)
 
 ### Task 1
 Create Git repository and first-time commit
@@ -19,3 +20,6 @@ Using css for design html document(stylize odd, even and other elements)
 
 ### Task 4
 Create simple form with validation using css and html only
+
+### Task 5
+Create html by the provided template. Try to create a simple CSS library

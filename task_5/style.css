@@ -1,0 +1,112 @@
+body{
+    margin:0px;
+}
+.container{
+    width:1200px;
+}
+.block-with-background{
+    height:250px;
+    width:1200px;
+    background: url(./assets/background1.png);
+    background-repeat:repeat-y;
+    background-size:100% 100%;
+}
+.parent-for-centring{
+    position:relative;
+}
+.centred{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.double-border{
+    border: solid 4px #000;
+    outline: solid 5px #fff;
+}
+.partially-transparent{
+    background-color:rgba(255, 255, 255, 0.92);
+    outline-color: rgba(255, 255, 255, 0.92);
+}
+/**/
+.button{
+   display:inline-block;
+   text-align:center;
+   color:white;
+   height:9px;
+   line-height:9px;
+   margin:2px;
+   padding:6px 10px;
+   box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+   border-radius:5px;
+   font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+   font-size:10px;
+   cursor:pointer;
+}
+.button:hover{
+    border:1px solid rgb(190,190,190);
+}
+.little-button{
+    height: 9px;
+    padding:4px 5px;
+    line-height:9px;
+    font-size:10px;
+}
+.big-button{
+    height: 16px;
+    padding:9px;
+    line-height:16px;
+    font-size:25px;
+}
+.huge-button{
+    height: 80px;
+    width: 370px;   
+    background-image: url(./assets/Backfont.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.pink{
+    background: linear-gradient(to top, #e22393, #E954AB);
+}
+.green{
+    background: linear-gradient(to top, #A5D021, #ABCC43);
+}
+.blue{
+    background: linear-gradient(to top, #3F8FE9, #5D9EE9);
+}
+.red{
+    background: linear-gradient(to top, #EB3D3D, #EC5B5B);
+}
+.yellow{
+    background: linear-gradient(to top, #FFBE2D, #FFC74C);
+}
+.orange{
+    background: linear-gradient(to top, #FF6E1A, #FF823E);
+}
+/**/
+.section-container{
+    padding:10px;
+}
+.white-section{
+    background-color:white;
+    border: 1px solid #ccc;
+    border-radius:3px;
+    padding:20px 0 20px 30px;
+    margin-bottom:8px;
+}
+.black-section{
+    background-color:Rgb(50,50,50);
+    border:1px solid #ccc;
+    border-radius:3px;
+    padding:20px 0 20px 30px;
+}
+.flex.vertical-center{
+    align-items: center;
+}
+.flex{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-bottom:7px;
+}
