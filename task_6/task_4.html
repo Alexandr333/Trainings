@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-block">
+        <div class="main-block__form">
+            <form class="registration-form" action="./assets/valid.html" target="result-frame">
+                <div class="registartion-form__description-text">Event name</div>
+                <div>Mel's birthday celebration</div>
+                <hr/>
+                <div class="registration-form__date-fields">
+                    <div class="registartion-form__description-text">From</div>
+                    <div class="date-picker">
+                        <input type="date" class="date-picker__date-field" value="2017-09-27" min="2017-09-28">
+                        <input type="time" class="date-picker__time-field" value="13:50">
+                        <div class="date-picker__error-popup">Date occurs in the past</div>
+                    </div>
+                    <div class="registartion-form__description-text">To</div>
+                    <div class="date-picker">
+                        <input type="date" class="date-picker__date-field" value="2017-09-27" min="2017-09-28">
+                        <input type="time" class="date-picker__time-field" value="21:30">
+                        <div class="date-picker__error-popup">Date occurs in the past</div>
+                    </div>
+                </div>
+                <div class="registartion-form__description-text">Description</div>
+                <div>Come help celebrate Mel's birthday with dinner, drinks and putt-putt</div>
+                <button type="submit" class="registration-form__accept-button"></button>
+            </form>
+            <iframe src="./assets/invalid.html" name="result-frame"></iframe> 
+        </div>
+    </div>
+</body>
+</html>
