@@ -1,6 +1,16 @@
 ﻿# Trainings
 Repository for frontend trainings
 
+**BEM**
+
+_**Used separators**_:
+ 
+ | Separator     | Is used for                                            |
+ | ------------- | -------------------------------------------------------|
+ | `-`           | separate words ( main-form )                           |
+ | `__`          | separate blocks and elements ( main-form__ok-button )  |
+ | `_`           | separate modificators ( main-form__ok-button_disabled )|
+
 //To work with GitHub used Git GUI known as GitKraken
 
 * [Task 1](#task-1)
