@@ -18,6 +18,7 @@ _**Used separators**_:
 * [Task 3](#task-3)
 * [Task 4](#task-4)
 * [Task 5](#task-5)
+* [Task 6](#task-6)
 
 ### Task 1
 Create Git repository and first-time commit
@@ -33,3 +34,6 @@ Create simple form with validation using css and html only
 
 ### Task 5
 Create html by the provided template. Try to create a simple CSS library
+
+### Task 6
+Remake task 4 using BEM methodology

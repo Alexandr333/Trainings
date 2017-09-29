@@ -18,9 +18,17 @@
     margin-top:15px;
     margin-bottom:10px;
 }
+.registration-form__main-text{
+}
 .registartion-form__description-text{
     font-size:0.8em;
     color:#bbb;
+}
+.registration-form__horizontal-rule{
+    border:none;
+    color: #eee;
+    background-color: #ddd; 
+    height:1px;
 }
 .registration-form__accept-button{
     width:100px;
