@@ -1,0 +1,23 @@
+/*----------------footer----------------------------------*/
+.hw-alex-footer{
+    text-align:center;
+}
+.hw-alex-footer__title{
+    font-size: 16px;
+    line-height: 30px;
+    color:#93A2A5;
+    
+    padding-bottom:7px;
+    margin-top:100px;
+    margin-bottom:30px;
+}
+.hw-alex-footer__author-link{
+    color:#D4A555;
+}
+.hw-alex-footer__icons{
+    font-size: 19px;
+    color:#93A2A5;
+    word-spacing: 35px;
+
+    margin-bottom:100px;
+}

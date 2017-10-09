@@ -1,0 +1,34 @@
+/*-------------------about card---------------------------*/
+.hw-alex-about-card{
+}
+.hw-alex-about-card_stretch{
+    width:100%;
+    height:100%;
+}
+.hw-alex-about-card__container{
+    width:100%;
+    height:100%;
+
+    padding:25px 40px 40px 40px;
+
+    box-sizing:border-box;
+}
+.hw-alex-about-card__header{
+    font-size: 42px;
+
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.hw-alex-about-card__paragraph{
+    font-size: 16px;
+    line-height: 30px;
+    color:#93A2A5;
+    font-weight: 400;
+
+    padding-bottom:7px;
+}
+.hw-alex-about-card__paragraph_special{
+    color:#EABB73;
+
+    padding-bottom:19px;
+}

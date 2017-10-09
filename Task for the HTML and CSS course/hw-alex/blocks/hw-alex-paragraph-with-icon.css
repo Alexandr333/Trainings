@@ -1,0 +1,38 @@
+/*-------------------item with icon-----------------------*/
+.hw-alex-paragraph-with-icon{
+}
+.hw-alex-paragraph-with-icon__container{
+    display:flex;
+    align-items: stretch;
+    flex-direction:row;
+
+    color:white;
+
+    margin-top:17px;
+}
+.hw-alex-paragraph-with-icon__icon{
+    font-size:45px;
+}
+.hw-alex-paragraph-with-icon__text-container{
+    margin-left: 17px;
+}
+.hw-alex-paragraph-with-icon__title{
+    font-size:26px;
+}
+.hw-alex-paragraph-with-icon__smaller-title{
+    font-size:0.7em;
+    font-weight:bold;
+}
+.hw-alex-paragraph-with-icon__smaller-title_dark-brown{
+    color:#683232;
+}
+.hw-alex-paragraph-with-icon__smaller-title_light-brown{
+    color:#886D1E;
+}
+.hw-alex-paragraph-with-icon__text{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight:400;
+
+    padding-bottom:7px;
+}

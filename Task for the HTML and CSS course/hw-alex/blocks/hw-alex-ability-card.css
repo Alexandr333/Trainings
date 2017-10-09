@@ -1,0 +1,54 @@
+/*-------------------ability card-------------------------*/
+.hw-alex-ability-card{
+}
+.hw-alex-ability-card_light-brown{
+    background:#E4AE58
+}
+.hw-alex-ability-card_light-red{
+    background:#E9714C
+}
+.hw-alex-ability-card_black{
+    background:#161616;
+}
+.hw-alex-ability-card_stretch{
+    width:100%;
+    height:100%;
+}
+.hw-alex-ability-card__container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    padding:40px 25px 30px 25px;
+
+    box-sizing:border-box;
+
+    color:white;
+}
+.hw-alex-ability-card__header{
+    font-size:28px;
+
+    padding-top:15px;
+    padding-bottom:25px;
+}
+.hw-alex-ability-card__header_black{
+    color:#161616;
+}
+.hw-alex-ability-card__text{
+    font-size: 18px;
+    line-height: 30px;
+
+    padding-bottom:7px;
+}
+.hw-alex-ability-card__text_gray{
+    color:#93A2A5;
+}
+.hw-alex-ability-card__icon{
+    font-size:45px;
+}
+.hw-alex-ability-card__icon_black{
+    color:#161616;
+}

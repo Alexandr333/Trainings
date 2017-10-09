@@ -1,0 +1,39 @@
+/*-------------------contacts card------------------------*/
+.contacts-card{
+}
+.hw-alex-contacts-card_black{
+    background-color:#161616;
+}
+.hw-alex-contacts-card_stretch{
+    width:100%;
+    height:100%;
+}
+.hw-alex-contacts-card__container{
+    padding:40px 35px 30px 35px;
+
+    box-sizing:border-box;
+}
+.hw-alex-contacts-card__title{
+    font-size:26px;
+    color:white;
+
+    padding-top:15px;
+    padding-bottom:25px;
+}
+.hw-alex-contacts-card__text{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight:400;
+
+    padding-bottom:7px;
+}
+.hw-alex-contacts-card__text_gray{
+    color:#93A2A5;
+}
+.hw-alex-contacts-card__text_dark-yellow{
+    color:#D4A555;
+}
+.hw-alex-contacts-card__icon{
+    color:#93A2A5;
+    margin-right:10px;
+}

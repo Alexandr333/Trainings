@@ -1,0 +1,32 @@
+/*-------------------menu---------------------------------*/
+.hw-alex-menu{
+}
+.hw-alex-menu__items{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.hw-alex-menu__item{
+    font-size: 15px;
+    font-weight:400;
+    text-decoration: none;
+    
+    padding:10px 25px 10px 25px;
+
+    cursor: pointer;
+}
+.hw-alex-menu__item_dark-gray{
+    color:#212121;
+}
+.hw-alex-menu__item_dark-yellow{
+    color:#E3C263;
+}
+.hw-alex-menu__item:hover{
+    border-bottom:3px solid #515151;
+}
+@media (max-width:700px){
+    .hw-alex-menu__items{
+        flex-direction:column;
+    }
+}
+/*---------------------------------------------------------*/

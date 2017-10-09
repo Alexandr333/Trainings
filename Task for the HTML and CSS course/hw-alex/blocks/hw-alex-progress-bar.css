@@ -1,0 +1,41 @@
+/*-------------------progress bar-------------------------*/
+.hw-alex-progress-bar{
+}
+.hw-alex-progress-bar__container{
+    width:100%;
+
+    font-size:15px;
+}
+.hw-alex-progress-bar__progress-container{
+    height:2px;
+
+    margin-top:10px;
+
+    background:white;
+}
+.hw-alex-progress-bar__progress{
+    height:2px;
+
+    background:#212121;
+}
+.hw-alex-progress-bar__progress_back-end{
+    width:70%;
+}
+.hw-alex-progress-bar__progress_html-css{
+    width:80%;
+}
+.hw-alex-progress-bar__progress_front-end{
+    width:90%;
+}
+.hw-alex-progress-bar__description{
+    display: flex;
+    justify-content:space-between;
+
+    margin-top:20px;
+}
+.hw-alex-progress-bar__description-info{
+    color:#212121;
+}
+.hw-alex-progress-bar__description-value{
+    color:white;
+}
