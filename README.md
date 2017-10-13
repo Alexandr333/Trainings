@@ -19,6 +19,10 @@ _**Used separators**_:
 * [Task 4](#task-4)
 * [Task 5](#task-5)
 * [Task 6](#task-6)
+* [Task for the HTML and CSS course](#task-for-the-html-and-css-course)
+* [JavaScript-Task_1](#javascript-task_1)
+* [JavaScript-Task_2](#javascript-task_2)
+
 
 ### Task 1
 Create Git repository and first-time commit
@@ -37,3 +41,12 @@ Create html by the provided template. Try to create a simple CSS library
 
 ### Task 6
 Remake task 4 using BEM methodology
+
+### Task for the HTML and CSS course
+Create adaptive HTML page by template, with using pure HTML/CSS only
+
+### JavaScript-Task_1
+Solve simple tasks on work JavaScript operators
+
+### JavaScript-Task_2
+Create scripts for calculation factorial, and finding prime numbers
