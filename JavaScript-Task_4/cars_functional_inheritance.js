@@ -1,4 +1,4 @@
-function car(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
+function Car(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
 {
     this.manufacturer = manufacturer;
     this.yearOfIssue = yearOfIssue;
@@ -16,9 +16,9 @@ function car(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
     }
     //
 }
-function jeep(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
+function Jeep(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
 {
-    car.apply(this,[manufacturer, yearOfIssue, model, maxSpeed, acceleration]);
+    Car.apply(this,[manufacturer, yearOfIssue, model, maxSpeed, acceleration]);
     //
     this.offRoadMove=(time,offRoadType)=>
     {
@@ -32,9 +32,9 @@ function jeep(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
         console.log(`Jeep ${this.manufacturer} ${this.model} drove through ${offRoadType}, distance=${distance}`);
     }
 }
-function sedan(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
+function Sedan(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
 {
-    car.apply(this,[manufacturer, yearOfIssue, model, maxSpeed, acceleration]);
+    Car.apply(this,[manufacturer, yearOfIssue, model, maxSpeed, acceleration]);
     //
     this.roadMove=(time)=>
     {
@@ -47,13 +47,13 @@ function sedan(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
     {
         if(this.manufacturer==="Lada")
         {
-            console.log(`${this.manufacturer} sedan showed off <=======(==`);
+            console.log(`${this.manufacturer} Sedan showed off <=======(==`);
         }
     }
 }
-function stationWagon(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
+function StationWagon(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
 {
-    car.apply(this,[manufacturer, yearOfIssue, model, maxSpeed, acceleration]);
+    Car.apply(this,[manufacturer, yearOfIssue, model, maxSpeed, acceleration]);
     //
     this.cityMove=(time)=>
     {
@@ -62,11 +62,11 @@ function stationWagon(manufacturer, yearOfIssue, model, maxSpeed, acceleration)
         console.log(`Station wagon ${this.manufacturer} ${this.model} perfectly drove through city, distance=${distance}`);
     }
 }
-var Mercedes = new jeep('Mercedes-Benz','2009','ML-Klasse 550 AMG',210,40);
+var Mercedes = new Jeep('Mercedes-Benz','2009','ML-Klasse 550 AMG',210,40);
 Mercedes.offRoadMove(10,'dirt');
-var Lada = new sedan('Lada','2015','Eggplant',170,30);
+var Lada = new Sedan('Lada','2015','Eggplant',170,30);
 Lada.roadMove(13);
 Lada.showOff();
-var Peugeot = new stationWagon('Peugeot','2008','207 SW HDi FAP 90',190,35);
+var Peugeot = new StationWagon('Peugeot','2008','207 SW HDi FAP 90',190,35);
 Peugeot.cityMove(10);
 
