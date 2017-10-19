@@ -1,0 +1,92 @@
+.main-block{
+}
+.main-block__form{
+    width:350px;
+    margin:0 auto;
+    padding:10px;
+
+    background-color:#Fbfbfb;
+
+    font-family: Roboto, Helvetica Neue,sans-serif;
+    font-size:17px;
+    line-height:1.5;
+}
+/**/
+.registration-form{
+}
+.registration-form__date-fields{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.registration-form__main-text{
+}
+.registartion-form__description-text{
+    font-size:0.8em;
+    color:#bbb;
+}
+.registartion-form__capture{
+    font-size:1.3em;
+    color:rgb(8, 21, 79);
+}
+.registration-form__select-container{
+    font-size:1em;
+}
+.registration-form__select{
+    font-size:1em;
+    font-family:inherit;
+}
+.registration-form__switches-container{
+    font-size:1em;
+}
+.registration-form__horizontal-rule{
+    border:none;
+    color: #eee;
+    background-color: #ddd; 
+    height:1px;
+}
+.registration-form__accept-button{
+    width:100px;
+    height:100px;
+    float:right;
+    border:none;
+}
+.registration-form:valid .registration-form__accept-button{
+    background-image: url(assets/valid.png);
+    background-size: cover;
+}
+.registration-form:invalid .registration-form__accept-button{
+    background-image: url(assets/invalid.png);
+    background-size: cover;
+}
+/**/
+.date-picker{
+}
+.date-picker__date-field{
+    border:none;
+    width:70%;
+    font-family: Roboto, Helvetica Neue,sans-serif;
+    font-size:17px;
+    line-height:1.5;
+}
+.date-picker__time-field{
+    border:none;
+    width:25%;
+    float:right;
+    font-family: Roboto, Helvetica Neue,sans-serif;
+    font-size:17px;
+    line-height:1.5;
+}
+.date-picker__error-popup{
+    clear:both;
+    font-size:0.8em;
+}
+.date-picker__date-field:valid ~ .date-picker__error-popup{
+    display:none;
+}
+.date-picker__date-field:invalid ~ .date-picker__error-popup{
+    color:red;
+}
+.date-picker__date-field:invalid, 
+.date-picker__date-field:invalid + .date-picker__time-field{
+    border-bottom:2px solid red;
+}

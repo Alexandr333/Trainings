@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script type="text/javascript" src="LocalStorage.js"></script>
+</head>
+<body>
+    <div class="main-block">
+        <div class="main-block__form">
+            <form class="registration-form" name="registration-form" action="./assets/valid.html" target="result-frame">
+                <div class="registartion-form__description-text">Event name</div>
+                <div class="registration-form__main-text">Mel's birthday celebration</div>
+                <hr class="registration-form__horizontal-rule"/>
+                <div class="registration-form__date-fields">
+                    <div class="registartion-form__description-text">From</div>
+                    <div class="date-picker">
+                        <input type="date" class="date-picker__date-field" name="from_date" min="2017-09-28">
+                        <input type="time" class="date-picker__time-field" name="from_time" >
+                        <div class="date-picker__error-popup">Date occurs in the past</div>
+                    </div>
+                    <div class="registartion-form__description-text">To</div>
+                    <div class="date-picker">
+                        <input type="date" class="date-picker__date-field" name="to_date" min="2017-09-28">
+                        <input type="time" class="date-picker__time-field" name="to_time" >
+                        <div class="date-picker__error-popup">Date occurs in the past</div>
+                    </div>
+                    <hr class="registration-form__horizontal-rule"/>
+                    <div class="registration-form__switches-container">
+                        <div class="registartion-form__capture">Are you really want to review this work ?</div>
+                        <div>
+                            <input type="radio" name="review" value="1">
+                            <label>Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="review" value="2">
+                            <label>No</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="review" value="3">
+                            <label>Nope!</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="review" value="4">
+                            <label>Oh Hell NO!</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="review" value="5">
+                            <label>Well @@@@ I'm dumping!!!</label>
+                        </div>
+                    </div>
+                    <hr class="registration-form__horizontal-rule"/>
+                    <div class="registration-form__switches-container">
+                        <div class="registartion-form__capture">Motivate me, wherever you are</div>
+                            <div>
+                                <input type="radio" name="motivation" value="1">
+                                <label>Just do it!</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="motivation" value="2">
+                                <label>What are you waiting for?</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="motivation" value="3">
+                                <label>Nothing is impossible!</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="motivation" value="4">
+                                <label>Makes your task 5 come true!</label>
+                            </div>
+                    </div>
+                    <hr class="registration-form__horizontal-rule"/>
+                    <div class="registration-form__select-container">
+                        <div class="registartion-form__capture">Choose your Pokémon!</div>
+                        <select name="pokemons" class="registration-form__select">
+                            <option value=""></option>
+                            <option value="1">Pikachu! I choose you!</option>
+                            <option value="2">Mewtwo! I choose you!</option>
+                            <option value="3">Ivysaur! I choose you!</option>
+                            <option value="4">Meowth! I choose you!</option>
+                            <option value="5">Psyduck! I choose you!</option>
+                        </select>
+                    </div>
+                    <hr class="registration-form__horizontal-rule"/>
+                    <div class="registration-form__select-container">
+                        <div class="registartion-form__capture">Your rating</div>
+                        <select class="registration-form__select" name="rating">
+                            <option value=""></option>
+                            <option value="1">Bad=(</option>
+                            <option value="2">So so=)</option>
+                            <option value="3">Oh Baby A Triple!</option>
+                        </select>
+                    </div>
+                </div>
+                <hr class="registration-form__horizontal-rule"/>
+                <div class="registartion-form__description-text">Description</div>
+                <div class="registration-form__main-text">Come help celebrate Mel's birthday with dinner, drinks and putt-putt</div>
+                <button type="submit" class="registration-form__accept-button"></button>
+            </form>
+            <iframe src="./assets/invalid.html" name="result-frame"></iframe> 
+        </div>
+    </div>
+</body>
+</html>
