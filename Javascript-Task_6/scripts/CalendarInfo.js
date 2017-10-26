@@ -1,57 +1,75 @@
-function CalendarInfo()
+//#region class CalendarInfo
+function CalendarInfo(daysOfWeekStyle,date)
 {
     this.year=null;
     this.month=null;
     this.daysOfWeekNames=[];
     this.days=[];
-    this.currentDate=null;
+    this.weeks=[];
+    this.yearAndMonth=null;
+    this.daysOfWeekStyle=null;
+    //
+    this.update(date,daysOfWeekStyle);
 }
-CalendarInfo.Create=function(daysOfWeekStyle,year,month)
+CalendarInfo.prototype._tryGetDate=function(date)
 {
-    let calendarInfo = new CalendarInfo();
-    let calendarDate = (arguments.length>2) ? new Date(year, month): new Date();
-    let firstDayOfWeekOfMonth = CalendarInfo.getDayOfWeek(calendarDate,daysOfWeekStyle);
-
-    calendarInfo.year = calendarDate.toLocaleString("en-US", { year: 'numeric' });
-    calendarInfo.month = calendarDate.toLocaleString("en-US", { month: 'long' });
-    calendarInfo.days = CalendarInfo.getMonthDays(calendarDate.getFullYear(),calendarDate.getMonth(),firstDayOfWeekOfMonth);
-    calendarInfo.daysOfWeekNames=CalendarInfo.getDaysOfWeekNames(daysOfWeekStyle);
-
-    return calendarInfo;
+    if(date instanceof Date)
+    {
+        return date.getDate();
+    }
+    else
+    {
+        return date.toString();
+    }
 }
-CalendarInfo.getMonthDays=function(year,month,firstDayOfWeekOfMonth)
+CalendarInfo.prototype.getMonthDays=function(year,month,firstDayOfWeekOfMonth)
 {
     let daysInMonth=new Date(year,month+1,0).getDate();
     let days=[];
-    CalendarInfo.fillStartOfDaysArray(days,firstDayOfWeekOfMonth);
     for(let i=1;i<=daysInMonth;i++)
     {
         days.push(new Date(year,month,i));
     }
-    CalendarInfo.fillEndOfDaysArray(days,days.length);
     return days;
 }
-CalendarInfo.fillStartOfDaysArray=function(days,firstDayOfWeekOfMonth)
+CalendarInfo.prototype.separateDaysOnWeeks=function(days,firstDayOfWeekOfMonth)
+{
+    days=this.fillStartOfDaysArray(days, firstDayOfWeekOfMonth);
+    days=this.fillEndOfDaysArray(days, days.length);
+    let weeks = [];
+    let index = 0;
+    while(index<days.length)
+    {
+        weeks.push(days.splice(index, 7).map(this._tryGetDate));
+    }
+    return weeks;
+}
+CalendarInfo.prototype.fillStartOfDaysArray=function(days,firstDayOfWeekOfMonth)
 {
     for(let i=1;i<firstDayOfWeekOfMonth;i++)
     {
-        days.push(null);
+        days.unshift('');
     }
+    return days;
 }
-CalendarInfo.fillEndOfDaysArray=function(days,daysNumber)
+CalendarInfo.prototype.fillEndOfDaysArray=function(days,daysNumber)
 {
     if(daysNumber%7!==0)
     {
         for(let i=1;i<=7-daysNumber%7;i++)
         {
-            days.push(null);
+            days.push('');
         }
     }
+    return days;
 }
-CalendarInfo.getDayOfWeek=function(date,daysOfWeekStyle)
+CalendarInfo.prototype.getDayOfWeek=function(date,daysOfWeekStyle)
 {
     let dayOfWeek=date.getDay();
-    
+    if(daysOfWeekStyle===undefined)
+    {
+        daysOfWeekStyle=this.daysOfWeekStyle;
+    }
     if(daysOfWeekStyle===DaysOfWeekStyle.Europe)
     {
         dayOfWeek=(dayOfWeek===0)?7:dayOfWeek;
@@ -62,7 +80,7 @@ CalendarInfo.getDayOfWeek=function(date,daysOfWeekStyle)
         return dayOfWeek+1;
     }
 }
-CalendarInfo.getDaysOfWeekNames=function(daysOfWeekStyle)
+CalendarInfo.prototype.getDaysOfWeekNames=function(daysOfWeekStyle)
 {
     let daysOfWeekNames=["Mo","Tu","We","Th","Fr","Sa","Su"];
 
@@ -77,8 +95,54 @@ CalendarInfo.getDaysOfWeekNames=function(daysOfWeekStyle)
         return daysOfWeekNames;
     }
 }
+CalendarInfo.prototype.NextMonth=function()
+{
+    let newDate=new Date(this.year, this.month+1);
+    this.update(newDate);
+    return this;
+}
+CalendarInfo.prototype.PreviousMonth=function()
+{
+    let newDate=new Date(this.year, this.month-1);
+    this.update(newDate);
+    return this;
+}
+CalendarInfo.prototype.update=function(date,daysOfWeekStyle)
+{
+    let newDate = arguments.length < 1 ? new Date() : date;
+    if(arguments.length>1)
+    {
+        this.daysOfWeekStyle=daysOfWeekStyle;
+    }
+    let firstDayOfWeekOfMonth = this.getDayOfWeek(newDate,this.daysOfWeekStyle);
+    this.yearAndMonth = newDate.toLocaleString("en-GB", { year: 'numeric', month: 'long' });
+    this.year = newDate.getFullYear();
+    this.month = newDate.getMonth();
+    this.days = this.getMonthDays(this.year, this.month, firstDayOfWeekOfMonth);
+    this.weeks = this.separateDaysOnWeeks(this.days.slice(), firstDayOfWeekOfMonth);
+    this.daysOfWeekNames = this.getDaysOfWeekNames(this.daysOfWeekStyle);
+}
+CalendarInfo.prototype.getFullDate=function(day)
+{
+    return new Date(this.year,this.month,day);
+}
+CalendarInfo.prototype.getTodaysIndex=function()
+{
+    let date=new Date();
+    if(this.year===date.getFullYear() && this.month===date.getMonth())
+    {
+        return date.getDate()+this.getDayOfWeek(date);
+    }
+    return null;
+}
 var DaysOfWeekStyle={
     American:0,
     Europe:1
 }
 Object.freeze(DaysOfWeekStyle);
+//#endregion
+//#region tests
+let calendarInfo=new CalendarInfo(DaysOfWeekStyle.Europe,new Date());
+console.log(calendarInfo.getTodaysIndex())
+console.log(calendarInfo.getFullDate(23));
+//#endregion

@@ -59,13 +59,17 @@
     justify-content:space-between;
     align-items: center;
 }
-.calendar__day{
+.calendar__month-day{
     width:30px;
     height:30px;
     border:1px solid black;
     margin:5px;
     text-align:  center;
     line-height:30px;
+}
+.calendar__month-day:hover{
+    background-color:#dddddd;
+    cursor: pointer;
 }
 .calendar__day_today{
 background-color:yellow;
