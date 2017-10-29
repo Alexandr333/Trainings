@@ -1,0 +1,16 @@
+{
+  "name": "javascript-task_7",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+
+    "start": "node UsedPromise.js && node NoUsedPromise.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aliaksandr Labanau",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
