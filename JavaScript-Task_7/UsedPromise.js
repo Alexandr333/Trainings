@@ -72,5 +72,5 @@ function nbrbDataRequester()
 }
 
 let dataRequster= new nbrbDataRequester();
-console.log('With using Promises***************************************************************************');
+console.log('With using Promises***************************************************************************\n');
 dataRequster.MakeConsecutiveRequestsToAPIs();
