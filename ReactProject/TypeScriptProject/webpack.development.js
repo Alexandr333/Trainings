@@ -13,18 +13,6 @@ module.exports = WebpackMerge(CommonConfig,
           inline: true,
           hot:true
         },
-        module: {
-            rules: [
-              {
-                test: /\.css$/,
-                use: [
-                  'style-loader',
-                  'css-loader'
-                ],
-                exclude: /node_modules/
-              }
-            ]
-        },
         plugins: [
           new webpack.NamedModulesPlugin(),
           new webpack.HotModuleReplacementPlugin()
