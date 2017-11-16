@@ -1,0 +1,30 @@
+.afs-blackout-card{
+    width: 100%;
+    height: 100%;
+}
+.afs-blackout-card__body{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+.afs-blackout-card__background{
+    width: 100%;
+    height: 100%;
+}
+.afs-blackout-card__dark-layout{
+    width: 100%;
+    height: 100%;
+
+    overflow:hidden;
+
+    position:absolute;
+    left:0;
+    top:0;
+
+    background-color:rgba(0, 0, 0, 0.7);
+
+    visibility: hidden;
+}
+.afs-blackout-card:hover .afs-blackout-card__dark-layout{
+    visibility: visible;
+}

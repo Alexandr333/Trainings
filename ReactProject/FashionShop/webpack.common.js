@@ -19,7 +19,7 @@ module.exports = {
           exclude: /node_modules/
         },
         {
-          test: /\.ts$/,
+          test: /\.tsx?$/,
           enforce: 'pre',
           loader: 'tslint-loader',
           exclude:/node_modules/
@@ -29,6 +29,16 @@ module.exports = {
           use: [
             'style-loader',
             'css-loader'
+          ],
+          exclude: /node_modules/
+        },
+        {
+          test: /\.(png|jpg)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {}  
+            }
           ],
           exclude: /node_modules/
         }

@@ -1,0 +1,1352 @@
+{
+    "status": {
+        "code": 1000,
+        "description": "OK"
+    },
+    "response": {
+        "results": [
+            {
+                "score": 0.588108241558075,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/30/9c/309c16614c1c1c7330a4e56b8584a1a5_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_386b6bf7b2e6a27881dcd37faa7202",
+                    "dateCreated": "2017-11-07 12:53:55.923709",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=602125641",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/30/9c/309c16614c1c1c7330a4e56b8584a1a5_best.jpg",
+                        "title": "Aerie Real Soft\u00ae Cowl Neck Sweatshirt",
+                        "gender": "women",
+                        "price": 44.95,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/30/9c/309c16614c1c1c7330a4e56b8584a1a5.jpg",
+                        "retailer": "aerie",
+                        "brand": "aerie"
+                    }
+                }
+            },
+            {
+                "score": 0.588108241558075,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/30/9c/309c16614c1c1c7330a4e56b8584a1a5_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_93bd2f8018a78f821a524d0650a88c",
+                    "dateCreated": "2017-11-07 12:53:55.923853",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=602125641",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/30/9c/309c16614c1c1c7330a4e56b8584a1a5_best.jpg",
+                        "title": "Aerie Real Soft\u00ae Cowl Neck Sweatshirt",
+                        "gender": "women",
+                        "price": 44.95,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/30/9c/309c16614c1c1c7330a4e56b8584a1a5.jpg",
+                        "retailer": "aerie",
+                        "brand": "aerie"
+                    }
+                }
+            },
+            {
+                "score": 0.5433509945869446,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/95/4b/954b00b781f23a3b121c6db7bb5a0f88_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_9542ac2de44e6e28a6975a11c314d9",
+                    "dateCreated": "2017-11-07 12:53:55.923810",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=614637047",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/95/4b/954b00b781f23a3b121c6db7bb5a0f88_best.jpg",
+                        "title": "Esprit Roll Neck Knit with Cable Front Detail",
+                        "gender": "men",
+                        "price": 83.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/95/4b/954b00b781f23a3b121c6db7bb5a0f88.jpg",
+                        "retailer": "Asos",
+                        "brand": "Esprit"
+                    }
+                }
+            },
+            {
+                "score": 0.5433509945869446,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/95/4b/954b00b781f23a3b121c6db7bb5a0f88_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_c0e2b44b5168f95f9a3e739718c5e1",
+                    "dateCreated": "2017-11-07 12:53:55.923836",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=614637047",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/95/4b/954b00b781f23a3b121c6db7bb5a0f88_best.jpg",
+                        "title": "Esprit Roll Neck Knit with Cable Front Detail",
+                        "gender": "men",
+                        "price": 83.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/95/4b/954b00b781f23a3b121c6db7bb5a0f88.jpg",
+                        "retailer": "Asos",
+                        "brand": "Esprit"
+                    }
+                }
+            },
+            {
+                "score": 0.542317271232605,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/4e/ca/4eca863a1bc756db4d7417645ecfbd21_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_92d5cd8f878a4cd1fc89f92a819378",
+                    "dateCreated": "2017-11-07 12:53:55.923759",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=545157943",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/4e/ca/4eca863a1bc756db4d7417645ecfbd21_best.jpg",
+                        "title": "Bellfield Holidays Jacquard Geometric Knitted Sweater",
+                        "gender": "men",
+                        "price": 76.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/4e/ca/4eca863a1bc756db4d7417645ecfbd21.jpg",
+                        "retailer": "Asos",
+                        "brand": "Bellfield"
+                    }
+                }
+            },
+            {
+                "score": 0.5338010787963867,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/45/a0/45a09f6f849b012403ab780711793c45_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_256eb5d13436f52caf88de93149a9d",
+                    "dateCreated": "2017-11-07 12:53:55.923768",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=634397847",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/45/a0/45a09f6f849b012403ab780711793c45_best.jpg",
+                        "title": "Shaker Knit Eternity Scarf",
+                        "gender": "women",
+                        "price": 34.95,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/45/a0/45a09f6f849b012403ab780711793c45.jpg",
+                        "retailer": "Lane Bryant",
+                        "brand": "Lane Bryant"
+                    }
+                }
+            },
+            {
+                "score": 0.5338010787963867,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/45/a0/45a09f6f849b012403ab780711793c45_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_e3dbe675fb67af3a31537601a96dee",
+                    "dateCreated": "2017-11-07 12:53:55.924025",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=634397847",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/45/a0/45a09f6f849b012403ab780711793c45_best.jpg",
+                        "title": "Shaker Knit Eternity Scarf",
+                        "gender": "women",
+                        "price": 34.95,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/45/a0/45a09f6f849b012403ab780711793c45.jpg",
+                        "retailer": "Lane Bryant",
+                        "brand": "Lane Bryant"
+                    }
+                }
+            },
+            {
+                "score": 0.5297031104564667,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/04/3f/043fc8d15fd8163d2b6f09d3eddf7b6c_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_0e767e68b120af91168fbcb5518fce",
+                    "dateCreated": "2017-11-07 12:53:55.923637",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=628526994",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/04/3f/043fc8d15fd8163d2b6f09d3eddf7b6c_best.jpg",
+                        "title": "Farah Slim Fit Paisley Shirt In Red",
+                        "gender": "men",
+                        "price": 87.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/04/3f/043fc8d15fd8163d2b6f09d3eddf7b6c.jpg",
+                        "retailer": "Asos",
+                        "brand": "Farah"
+                    }
+                }
+            },
+            {
+                "score": 0.5297031104564667,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/04/3f/043fc8d15fd8163d2b6f09d3eddf7b6c_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_4b0f4034c4ec526c306c62e929e75b",
+                    "dateCreated": "2017-11-07 12:53:55.923700",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=628526994",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/04/3f/043fc8d15fd8163d2b6f09d3eddf7b6c_best.jpg",
+                        "title": "Farah Slim Fit Paisley Shirt In Red",
+                        "gender": "men",
+                        "price": 87.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/04/3f/043fc8d15fd8163d2b6f09d3eddf7b6c.jpg",
+                        "retailer": "Asos",
+                        "brand": "Farah"
+                    }
+                }
+            },
+            {
+                "score": 0.5252434611320496,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/14/f4/14f40f605083bc8cb76653a16d80121c_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_90158c125b16ba38075909b2a09fce",
+                    "dateCreated": "2017-11-07 12:53:55.923734",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=643256517",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/14/f4/14f40f605083bc8cb76653a16d80121c_best.jpg",
+                        "title": "Black & White Boucle Scarf with Fringe",
+                        "gender": "women",
+                        "price": 29.95,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/14/f4/14f40f605083bc8cb76653a16d80121c.jpg",
+                        "retailer": "Lane Bryant",
+                        "brand": "Lane Bryant"
+                    }
+                }
+            },
+            {
+                "score": 0.5252434611320496,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/14/f4/14f40f605083bc8cb76653a16d80121c_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_a93cdb7a5997e685a4e6a703b2274d",
+                    "dateCreated": "2017-11-07 12:53:55.923743",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=643256517",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/14/f4/14f40f605083bc8cb76653a16d80121c_best.jpg",
+                        "title": "Black & White Boucle Scarf with Fringe",
+                        "gender": "women",
+                        "price": 29.95,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/14/f4/14f40f605083bc8cb76653a16d80121c.jpg",
+                        "retailer": "Lane Bryant",
+                        "brand": "Lane Bryant"
+                    }
+                }
+            },
+            {
+                "score": 0.5237972438335419,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/9b/dd/9bddbf5807e74d95ab389107a06a0a4e_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_bac597687bb2c06239184b20b0b818",
+                    "dateCreated": "2017-11-07 12:53:55.923751",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=654922687",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/9b/dd/9bddbf5807e74d95ab389107a06a0a4e_best.jpg",
+                        "title": "Armani Jeans Wool Mix Logo Scarf in Gray",
+                        "gender": "men",
+                        "price": 87.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/9b/dd/9bddbf5807e74d95ab389107a06a0a4e.jpg",
+                        "retailer": "Asos",
+                        "brand": "Armani Jeans"
+                    }
+                }
+            },
+            {
+                "score": 0.5237972438335419,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/9b/dd/9bddbf5807e74d95ab389107a06a0a4e_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_9b8842ae4a34b61a6cddc3d0464375",
+                    "dateCreated": "2017-11-07 12:53:55.923998",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=654922687",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/9b/dd/9bddbf5807e74d95ab389107a06a0a4e_best.jpg",
+                        "title": "Armani Jeans Wool Mix Logo Scarf in Gray",
+                        "gender": "men",
+                        "price": 87.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/9b/dd/9bddbf5807e74d95ab389107a06a0a4e.jpg",
+                        "retailer": "Asos",
+                        "brand": "Armani Jeans"
+                    }
+                }
+            },
+            {
+                "score": 0.5224116146564484,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/73/96/7396fdba296154886ad57369ffebd8f8_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_abae127d78e311d43a43e57bf4282b",
+                    "dateCreated": "2017-11-07 12:53:55.923614",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=638506328",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/73/96/7396fdba296154886ad57369ffebd8f8_best.jpg",
+                        "title": "Color pop marled scarf",
+                        "gender": "women",
+                        "price": 34.95,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/73/96/7396fdba296154886ad57369ffebd8f8.jpg",
+                        "retailer": "Lane Bryant",
+                        "brand": "Lane Bryant"
+                    }
+                }
+            },
+            {
+                "score": 0.5224116146564484,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/73/96/7396fdba296154886ad57369ffebd8f8_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_813974e9a6378a9f2c59af3ace62b7",
+                    "dateCreated": "2017-11-07 12:53:55.924016",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=638506328",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/73/96/7396fdba296154886ad57369ffebd8f8_best.jpg",
+                        "title": "Color pop marled scarf",
+                        "gender": "women",
+                        "price": 34.95,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/73/96/7396fdba296154886ad57369ffebd8f8.jpg",
+                        "retailer": "Lane Bryant",
+                        "brand": "Lane Bryant"
+                    }
+                }
+            },
+            {
+                "score": 0.5210146903991699,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/1c/f5/1cf5c9def23e2b8770b3e84ac2ff842d_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_0bf3a9140ec77949993b342347084a",
+                    "dateCreated": "2017-11-07 12:53:55.923862",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=640066302",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/1c/f5/1cf5c9def23e2b8770b3e84ac2ff842d_best.jpg",
+                        "title": "LIVIANA CONTI Tops",
+                        "gender": "women",
+                        "price": 89.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/1c/f5/1cf5c9def23e2b8770b3e84ac2ff842d.jpg",
+                        "retailer": "yoox.com",
+                        "brand": "Liviana Conti"
+                    }
+                }
+            },
+            {
+                "score": 0.520523339509964,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/d1/89/d189d7256dd45c0c3efb97d4c608a22c_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_1b5830c3710e19e8f687566c6a2acd",
+                    "dateCreated": "2017-11-07 12:53:55.923793",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=638321020",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/d1/89/d189d7256dd45c0c3efb97d4c608a22c_best.jpg",
+                        "title": "Marled Eternity Scarf",
+                        "gender": "women",
+                        "price": 34.95,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/d1/89/d189d7256dd45c0c3efb97d4c608a22c.jpg",
+                        "retailer": "Lane Bryant",
+                        "brand": "Lane Bryant"
+                    }
+                }
+            },
+            {
+                "score": 0.520523339509964,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/d1/89/d189d7256dd45c0c3efb97d4c608a22c_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_a5d6e3d5f45e5b7720ed0e48c34a87",
+                    "dateCreated": "2017-11-07 12:53:55.923802",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=638321020",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/d1/89/d189d7256dd45c0c3efb97d4c608a22c_best.jpg",
+                        "title": "Marled Eternity Scarf",
+                        "gender": "women",
+                        "price": 34.95,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/d1/89/d189d7256dd45c0c3efb97d4c608a22c.jpg",
+                        "retailer": "Lane Bryant",
+                        "brand": "Lane Bryant"
+                    }
+                }
+            },
+            {
+                "score": 0.5137534439563751,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/e4/24/e42416fdc6818b42487cda29be2625c5_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_60a1597f6088bdb21e784e47add0f5",
+                    "dateCreated": "2017-11-07 12:53:55.923683",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=539273558",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/e4/24/e42416fdc6818b42487cda29be2625c5_best.jpg",
+                        "title": "Lands' End Women's Sweater Fleece Parka-Dark Charcoal Heather",
+                        "gender": "women",
+                        "price": 89.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/e4/24/e42416fdc6818b42487cda29be2625c5.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5137534439563751,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/89/20/89204b9e951f210bf2a7565eea9620fc_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_8e544bcbc6899c40f1bff34c9bd3ab",
+                    "dateCreated": "2017-11-07 12:53:55.923692",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=539273564",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/89/20/89204b9e951f210bf2a7565eea9620fc_best.jpg",
+                        "title": "Lands' End Women's Tall Sweater Fleece Parka-Ivory Heather",
+                        "gender": "women",
+                        "price": 99.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/89/20/89204b9e951f210bf2a7565eea9620fc.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5137534439563751,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/89/20/89204b9e951f210bf2a7565eea9620fc_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_4ad7c8376e18249b519b774d309598",
+                    "dateCreated": "2017-11-07 12:53:55.923888",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=539273563",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/89/20/89204b9e951f210bf2a7565eea9620fc_best.jpg",
+                        "title": "Lands' End Women's Petite Sweater Fleece Parka-Ivory Heather",
+                        "gender": "women",
+                        "price": 89.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/89/20/89204b9e951f210bf2a7565eea9620fc.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5137534439563751,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/e4/24/e42416fdc6818b42487cda29be2625c5_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_d927ed0cb487c0e7784ba69ac3715c",
+                    "dateCreated": "2017-11-07 12:53:55.923905",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=539273558",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/e4/24/e42416fdc6818b42487cda29be2625c5_best.jpg",
+                        "title": "Lands' End Women's Sweater Fleece Parka-Dark Charcoal Heather",
+                        "gender": "women",
+                        "price": 89.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/e4/24/e42416fdc6818b42487cda29be2625c5.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5137534439563751,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/89/20/89204b9e951f210bf2a7565eea9620fc_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_3ac22def474f00b787ea1c11a99c31",
+                    "dateCreated": "2017-11-07 12:53:55.923922",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=539273563",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/89/20/89204b9e951f210bf2a7565eea9620fc_best.jpg",
+                        "title": "Lands' End Women's Petite Sweater Fleece Parka-Ivory Heather",
+                        "gender": "women",
+                        "price": 89.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/89/20/89204b9e951f210bf2a7565eea9620fc.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5137534439563751,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/89/20/89204b9e951f210bf2a7565eea9620fc_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_10feb61dd85c978671a411870a48c2",
+                    "dateCreated": "2017-11-07 12:53:55.923990",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=539273564",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/89/20/89204b9e951f210bf2a7565eea9620fc_best.jpg",
+                        "title": "Lands' End Women's Tall Sweater Fleece Parka-Ivory Heather",
+                        "gender": "women",
+                        "price": 99.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/89/20/89204b9e951f210bf2a7565eea9620fc.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5133636295795441,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/94/88/9488e55bfe94abb37a08cc1c522bef40_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_e68b076bef1032c5741ba50d9e3abb",
+                    "dateCreated": "2017-11-07 12:53:55.923649",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=542227537",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/94/88/9488e55bfe94abb37a08cc1c522bef40_best.jpg",
+                        "title": "Golden Fleece\u00ae 3-D Knit Cashmere Blend Full-Zip Sweater with Lining",
+                        "gender": "men",
+                        "price": 698.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/94/88/9488e55bfe94abb37a08cc1c522bef40.jpg",
+                        "retailer": "Brooks Brothers",
+                        "brand": "Brooks Brothers"
+                    }
+                }
+            },
+            {
+                "score": 0.5123185217380524,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/9f/e9/9fe94d032d5039d554382f4ab8116a4d_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_5cdd30aa17cd130196637c780d1b85",
+                    "dateCreated": "2017-11-07 12:53:55.923726",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=543989286",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/9f/e9/9fe94d032d5039d554382f4ab8116a4d_best.jpg",
+                        "title": "Lands' End Women's Plus Size Hand Knit Wool Blend Turtleneck Tunic Sweater-Vicuna Heather",
+                        "gender": "women",
+                        "price": 219.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/9f/e9/9fe94d032d5039d554382f4ab8116a4d.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5123185217380524,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/9f/e9/9fe94d032d5039d554382f4ab8116a4d_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_6ca3100a7c283e082f751564e386d0",
+                    "dateCreated": "2017-11-07 12:53:55.923965",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=543989286",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/9f/e9/9fe94d032d5039d554382f4ab8116a4d_best.jpg",
+                        "title": "Lands' End Women's Plus Size Hand Knit Wool Blend Turtleneck Tunic Sweater-Vicuna Heather",
+                        "gender": "women",
+                        "price": 219.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/9f/e9/9fe94d032d5039d554382f4ab8116a4d.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5094301402568817,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/fb/22/fb220c9192f1224769f73f6ccd2e3850_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_37e5bf6b23db73f0a656152864febc",
+                    "dateCreated": "2017-11-07 12:53:55.923717",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=646968496",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/fb/22/fb220c9192f1224769f73f6ccd2e3850_best.jpg",
+                        "title": "Derek Lam 10 Crosby Cable Knit Wool Sweater",
+                        "gender": "women",
+                        "price": 90.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/fb/22/fb220c9192f1224769f73f6ccd2e3850.jpg",
+                        "retailer": "TheRealReal",
+                        "brand": "Derek Lam 10 Crosby"
+                    }
+                }
+            },
+            {
+                "score": 0.5094301402568817,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/fb/22/fb220c9192f1224769f73f6ccd2e3850_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_5536457e33812f41677eeaea7473f6",
+                    "dateCreated": "2017-11-07 12:53:55.924007",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=646968496",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/fb/22/fb220c9192f1224769f73f6ccd2e3850_best.jpg",
+                        "title": "Derek Lam 10 Crosby Cable Knit Wool Sweater",
+                        "gender": "women",
+                        "price": 90.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/fb/22/fb220c9192f1224769f73f6ccd2e3850.jpg",
+                        "retailer": "TheRealReal",
+                        "brand": "Derek Lam 10 Crosby"
+                    }
+                }
+            },
+            {
+                "score": 0.507465273141861,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/e8/2c/e82ca72b92f3b7c586840e7e793a5efd_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_82261306491550d6da5e00a5c66c35",
+                    "dateCreated": "2017-11-07 12:53:55.924035",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=658025072",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/e8/2c/e82ca72b92f3b7c586840e7e793a5efd_best.jpg",
+                        "title": "Herschel Supply Co Herschel Forecast Hooded Coach Jacket Waterproof Keith Haring Print in Navy UK EXCLUSIVE",
+                        "gender": "men",
+                        "price": 100.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/e8/2c/e82ca72b92f3b7c586840e7e793a5efd.jpg",
+                        "retailer": "Asos",
+                        "brand": "Herschel"
+                    }
+                }
+            },
+            {
+                "score": 0.5070664286613464,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/b5/27/b52770d54eba40c72779ce6c7d977e07_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_800577285d0d35d7daac81330bdb63",
+                    "dateCreated": "2017-11-07 12:53:55.923675",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=600118105",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/b5/27/b52770d54eba40c72779ce6c7d977e07_best.jpg",
+                        "title": "Lands' End Women's Plus Size Aran Cable Poncho Sweater-Cherry Jam",
+                        "gender": "women",
+                        "price": 179.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/b5/27/b52770d54eba40c72779ce6c7d977e07.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5070664286613464,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/b5/27/b52770d54eba40c72779ce6c7d977e07_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_db8b0acaa8130a6fd581f898945b2d",
+                    "dateCreated": "2017-11-07 12:53:55.923818",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=600118105",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/b5/27/b52770d54eba40c72779ce6c7d977e07_best.jpg",
+                        "title": "Lands' End Women's Plus Size Aran Cable Poncho Sweater-Cherry Jam",
+                        "gender": "women",
+                        "price": 179.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/b5/27/b52770d54eba40c72779ce6c7d977e07.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5059282779693604,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/c5/9c/c59c4a1aba53aaea004245f70ec658af_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_7661fd0db56f53a5f4560a0e6e8e89",
+                    "dateCreated": "2017-11-07 12:53:55.923930",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=606479738",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/c5/9c/c59c4a1aba53aaea004245f70ec658af_best.jpg",
+                        "title": "Lands' End Women's Plus Size Marl Turtleneck Tunic Sweater-Black",
+                        "gender": "women",
+                        "price": 89.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/c5/9c/c59c4a1aba53aaea004245f70ec658af.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5059282779693604,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/c5/9c/c59c4a1aba53aaea004245f70ec658af_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_fde3cb6c20c2cc195fe07c8e535ee8",
+                    "dateCreated": "2017-11-07 12:53:55.923982",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=606479738",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/c5/9c/c59c4a1aba53aaea004245f70ec658af_best.jpg",
+                        "title": "Lands' End Women's Plus Size Marl Turtleneck Tunic Sweater-Black",
+                        "gender": "women",
+                        "price": 89.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/c5/9c/c59c4a1aba53aaea004245f70ec658af.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5045669972896576,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/0c/2b/0c2b11573901662f83f1819fa5f1079a_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_70244f2d6e8138eb9fcc0d4d77be4d",
+                    "dateCreated": "2017-11-07 12:53:55.923658",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=600118125",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/0c/2b/0c2b11573901662f83f1819fa5f1079a_best.jpg",
+                        "title": "Lands' End Women's Petite Cashmere Aran Turtleneck Sweater-Vicuna Heather",
+                        "gender": "women",
+                        "price": 369.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/0c/2b/0c2b11573901662f83f1819fa5f1079a.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5045669972896576,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/0c/2b/0c2b11573901662f83f1819fa5f1079a_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_9f8342b9922dd21e637260eecc2dd3",
+                    "dateCreated": "2017-11-07 12:53:55.923880",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=600118125",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/0c/2b/0c2b11573901662f83f1819fa5f1079a_best.jpg",
+                        "title": "Lands' End Women's Petite Cashmere Aran Turtleneck Sweater-Vicuna Heather",
+                        "gender": "women",
+                        "price": 369.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/0c/2b/0c2b11573901662f83f1819fa5f1079a.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5041270852088928,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/c7/15/c7158954856db4297d6f7d62db6aad43_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_79c50a9ee9611b07246dc9b38ca10d",
+                    "dateCreated": "2017-11-07 12:53:55.923827",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=492343462",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/c7/15/c7158954856db4297d6f7d62db6aad43_best.jpg",
+                        "title": "Lands' End Women's Plus Size Lofty Blend Aran Cable Turtleneck Sweater-Calm Blue",
+                        "gender": "women",
+                        "price": 85.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/c7/15/c7158954856db4297d6f7d62db6aad43.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5041270852088928,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/c7/15/c7158954856db4297d6f7d62db6aad43_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_c038765b1b90f2ced6533529375bd5",
+                    "dateCreated": "2017-11-07 12:53:55.923914",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=492343462",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/c7/15/c7158954856db4297d6f7d62db6aad43_best.jpg",
+                        "title": "Lands' End Women's Plus Size Lofty Blend Aran Cable Turtleneck Sweater-Calm Blue",
+                        "gender": "women",
+                        "price": 85.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/c7/15/c7158954856db4297d6f7d62db6aad43.jpg",
+                        "retailer": "Lands' End",
+                        "brand": "Lands' End"
+                    }
+                }
+            },
+            {
+                "score": 0.5031527578830719,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/aa/8a/aa8ac296fca11a0f3e3828033cf416ca_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_19ce66ee36754afa1e5092889623cc",
+                    "dateCreated": "2017-11-07 12:53:55.923666",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=492777906",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/aa/8a/aa8ac296fca11a0f3e3828033cf416ca_best.jpg",
+                        "title": "Alpaca Handknit Cable Turtleneck Sweater",
+                        "gender": "men",
+                        "price": 448.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/aa/8a/aa8ac296fca11a0f3e3828033cf416ca.jpg",
+                        "retailer": "Brooks Brothers",
+                        "brand": "Brooks Brothers"
+                    }
+                }
+            },
+            {
+                "score": 0.5024984180927277,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/be/d4/bed4564522b57da49a0445ae170b40af_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_9e65735e7e8064e2f046c89b892feb",
+                    "dateCreated": "2017-11-07 12:53:55.923956",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=621902502",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/be/d4/bed4564522b57da49a0445ae170b40af_best.jpg",
+                        "title": "Lilla P Sweater Coat",
+                        "gender": "women",
+                        "price": 328.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/be/d4/bed4564522b57da49a0445ae170b40af.jpg",
+                        "retailer": "shoptiques.com",
+                        "brand": "Lilla P"
+                    }
+                }
+            },
+            {
+                "score": 0.5024984180927277,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/be/d4/bed4564522b57da49a0445ae170b40af_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_af0c1e0a7561ea8f22c6bc3564027b",
+                    "dateCreated": "2017-11-07 12:53:55.923974",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=621902502",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/be/d4/bed4564522b57da49a0445ae170b40af_best.jpg",
+                        "title": "Lilla P Sweater Coat",
+                        "gender": "women",
+                        "price": 328.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/be/d4/bed4564522b57da49a0445ae170b40af.jpg",
+                        "retailer": "shoptiques.com",
+                        "brand": "Lilla P"
+                    }
+                }
+            },
+            {
+                "score": 0.502079576253891,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/8b/11/8b1141f2cbe7a4fe8b7f309203d50144_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_27a80e08a07e800864f238a7a51553",
+                    "dateCreated": "2017-11-07 12:53:55.923777",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=626420419",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/8b/11/8b1141f2cbe7a4fe8b7f309203d50144_best.jpg",
+                        "title": "Viktor & Rolf Wool-Blend Knit Sweater",
+                        "gender": "women",
+                        "price": 175.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/8b/11/8b1141f2cbe7a4fe8b7f309203d50144.jpg",
+                        "retailer": "TheRealReal",
+                        "brand": "Viktor & Rolf"
+                    }
+                }
+            },
+            {
+                "score": 0.502079576253891,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/8b/11/8b1141f2cbe7a4fe8b7f309203d50144_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_def1bc3a7a20c5c349f211e2957be2",
+                    "dateCreated": "2017-11-07 12:53:55.924053",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=626420419",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/8b/11/8b1141f2cbe7a4fe8b7f309203d50144_best.jpg",
+                        "title": "Viktor & Rolf Wool-Blend Knit Sweater",
+                        "gender": "women",
+                        "price": 175.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/8b/11/8b1141f2cbe7a4fe8b7f309203d50144.jpg",
+                        "retailer": "TheRealReal",
+                        "brand": "Viktor & Rolf"
+                    }
+                }
+            },
+            {
+                "score": 0.5018629729747772,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/60/79/6079a22d1404d45c52bd5f113886b442_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_d0480ff6b9a3ea143433765edef2b9",
+                    "dateCreated": "2017-11-07 12:53:55.923897",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=659340618",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/60/79/6079a22d1404d45c52bd5f113886b442_best.jpg",
+                        "title": "Rock Springs CYA Jacket",
+                        "gender": "women",
+                        "price": 178.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/60/79/6079a22d1404d45c52bd5f113886b442.jpg",
+                        "retailer": "Athleta",
+                        "brand": "Athleta"
+                    }
+                }
+            },
+            {
+                "score": 0.5018629729747772,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/60/79/6079a22d1404d45c52bd5f113886b442_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_21e17addb895cb630026b367c669dd",
+                    "dateCreated": "2017-11-07 12:53:55.923939",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=659340618",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/60/79/6079a22d1404d45c52bd5f113886b442_best.jpg",
+                        "title": "Rock Springs CYA Jacket",
+                        "gender": "women",
+                        "price": 178.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/60/79/6079a22d1404d45c52bd5f113886b442.jpg",
+                        "retailer": "Athleta",
+                        "brand": "Athleta"
+                    }
+                }
+            },
+            {
+                "score": 0.5018253922462463,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/de/8c/de8c06bbed1dcc403c9da86aadc03b8d_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_609a7f31c2f5a18b7e6a25fd0ee420",
+                    "dateCreated": "2017-11-07 12:53:55.923948",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=654647171",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/de/8c/de8c06bbed1dcc403c9da86aadc03b8d_best.jpg",
+                        "title": "Stella Mccartney Cashmere large sweater",
+                        "gender": "women",
+                        "price": 1095.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/de/8c/de8c06bbed1dcc403c9da86aadc03b8d.jpg",
+                        "retailer": "24 S\u00e8vres",
+                        "brand": "Stella McCartney"
+                    }
+                }
+            },
+            {
+                "score": 0.5018253922462463,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/de/8c/de8c06bbed1dcc403c9da86aadc03b8d_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_26513c284d32da543cd6ff912b7151",
+                    "dateCreated": "2017-11-07 12:53:55.924043",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=654647171",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/de/8c/de8c06bbed1dcc403c9da86aadc03b8d_best.jpg",
+                        "title": "Stella Mccartney Cashmere large sweater",
+                        "gender": "women",
+                        "price": 1095.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/de/8c/de8c06bbed1dcc403c9da86aadc03b8d.jpg",
+                        "retailer": "24 S\u00e8vres",
+                        "brand": "Stella McCartney"
+                    }
+                }
+            },
+            {
+                "score": 0.5009953379631042,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/8f/32/8f3241aa77ce168d202dda840613cea4_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_aa812e2e7bb8f073d050048b16480d",
+                    "dateCreated": "2017-11-07 12:53:55.923844",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=540570736",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/8f/32/8f3241aa77ce168d202dda840613cea4_best.jpg",
+                        "title": "The JetSet Diaries Mini Blue Dress",
+                        "gender": "women",
+                        "price": 188.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/8f/32/8f3241aa77ce168d202dda840613cea4.jpg",
+                        "retailer": "shoptiques.com",
+                        "brand": "The Jetset Diaries"
+                    }
+                }
+            },
+            {
+                "score": 0.5009953379631042,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/8f/32/8f3241aa77ce168d202dda840613cea4_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_5d71e1ae84154f9735abb09f8b1bcc",
+                    "dateCreated": "2017-11-07 12:53:55.923871",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=540570736",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/8f/32/8f3241aa77ce168d202dda840613cea4_best.jpg",
+                        "title": "The JetSet Diaries Mini Blue Dress",
+                        "gender": "women",
+                        "price": 188.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/8f/32/8f3241aa77ce168d202dda840613cea4.jpg",
+                        "retailer": "shoptiques.com",
+                        "brand": "The Jetset Diaries"
+                    }
+                }
+            },
+            {
+                "score": 0.5009476840496063,
+                "object": {
+                    "status": {
+                        "code": 0,
+                        "description": "Success"
+                    },
+                    "image": {
+                        "url": "https://img.shopstyle-cdn.com/pim/98/a3/98a3464b160376da9ce3e1110a5ee82f_best.jpg",
+                        "crop": null
+                    },
+                    "gid": "object_746e1d3d9fff92bd102d94eafd6a06",
+                    "dateCreated": "2017-11-07 12:53:55.923785",
+                    "metadata": {
+                        "currency": "USD",
+                        "extUrl": "https://api.shopstyle.com/action/apiVisitRetailer?id=623537639",
+                        "mainImageUrl": "https://img.shopstyle-cdn.com/pim/98/a3/98a3464b160376da9ce3e1110a5ee82f_best.jpg",
+                        "title": "LIST Turtlenecks",
+                        "gender": "women",
+                        "price": 84.0,
+                        "thumbnailUrl": "https://img.shopstyle-cdn.com/mim/98/a3/98a3464b160376da9ce3e1110a5ee82f.jpg",
+                        "retailer": "yoox.com",
+                        "brand": "List"
+                    }
+                }
+            }
+        ],
+        "tags": [
+            {
+                "confidence": 0.3633550703525543,
+                "type": "detail",
+                "name": "cowl"
+            },
+            {
+                "confidence": 0.19542226195335388,
+                "type": "color",
+                "name": "color anthracite"
+            },
+            {
+                "confidence": 0.16338218748569489,
+                "type": "detail",
+                "name": "funnel neck zip"
+            },
+            {
+                "confidence": 0.157411128282547,
+                "type": "color",
+                "name": "color grey"
+            },
+            {
+                "confidence": 0.1359192132949829,
+                "type": "shape",
+                "name": "knit sweater"
+            },
+            {
+                "confidence": 0.13418859243392944,
+                "type": "detail",
+                "name": "turtleneck"
+            },
+            {
+                "confidence": 0.10984889417886734,
+                "type": "color",
+                "name": "color blue"
+            },
+            {
+                "confidence": 0.1057233065366745,
+                "type": "pattern",
+                "name": "ribknit"
+            }
+        ]
+    }
+}

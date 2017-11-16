@@ -1,0 +1,33 @@
+.afs-validated-input{
+    display: inline-block;
+
+    width: 100%;
+}
+.afs-valiadted-input_valid{
+}
+.afs-valiadted-input_invalid{
+}
+.afs-valiadted-input_no-validation-text{
+}
+.afs-validated-input__input{
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid black;
+
+    box-sizing: border-box;
+
+    font-size: inherit;
+    font-family: inherit;
+
+    padding-left: 3px;
+}
+.afs-validated-input__message{
+    font-weight: 500;
+}
+.afs-validated-input_valid > .afs-validated-input__message{
+    color: green;
+}
+.afs-validated-input_invalid > .afs-validated-input__message{
+    color: red;
+}

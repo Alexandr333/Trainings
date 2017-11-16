@@ -5,11 +5,12 @@ import * as ReactDOM from 'react-dom';
 
 interface HelloAttributes
 {
-
+    word?:string;
 }
 
 export class HelloComponent extends React.Component<HelloAttributes, {}>
 {
+    static defaultProps:HelloAttributes = { word : " Beauty lady" };
     constructor(helloAttributes:HelloAttributes)
     {
         super(helloAttributes);
@@ -19,7 +20,7 @@ export class HelloComponent extends React.Component<HelloAttributes, {}>
         return (
             <div className="hello">
                 <div className="hello__container">
-                    <div className="hello__greeting">Hello</div>
+                    <div className="hello__greeting">Hello {this.props.word}</div>
                     <div className="hello__text">This is my first react application</div>
                 </div>
             </div>
