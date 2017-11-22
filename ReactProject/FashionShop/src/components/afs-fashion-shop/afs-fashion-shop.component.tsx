@@ -3,28 +3,40 @@ import './afs-fashion-shop.css';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { BlackoutCard } from '../afs-blackout-card/afs-blackout-card.component';
-import { FashionCard } from '../afs-fashion-card/afs-fashion-card.component';
 import { FashionHeader, IFashionHeaderSearchInputsInfo } from '../afs-fashion-header/afs-fashion-header.component';
 import { CollapsingMenu, ICollapsingMenuItem } from '../afs-collapsing-menu/afs-collapsing-menu.component';
 import { FashionCatalog, IFashionCatalogItem} from '../afs-fashion-catalog/afs-fashion-catalog.component';
-
-import { FashionOffersService } from '../../services/FashionOffersService';
-import { FashionOffer } from '../../FashionOffer';
-import { FashionOffersSearchTerms } from '../../FashionOffersSearchTerms';
 import { Loading } from '../afs-loading/afs-loading.component';
+
+import { connect } from 'react-redux';
+import { fashionOffersActions } from '../../store/actions/index';
+import { FashionOffersSearchTerms, FashionOffer } from '../../models/index';
+import { IAppState } from '../../store/types';
+import { 
+    HashRouter as Router,
+    Route,
+    Switch,
+    Redirect
+} from 'react-router-dom';
 
 interface IFashionShopProps
 {
-
+    offers: FashionOffer[];
+    offersLoadingStatus: string;
 }
 interface IFashionShopState
 {
     isMenuCollapsed: boolean;
     offers: FashionOffer[];
 }
+interface DispatchProps {
+    loadOffers: (filterParams: FashionOffersSearchTerms) => void;
+}
+interface ISuperProps extends IFashionShopProps, DispatchProps
+{
+}
 
-export class FashionShop extends React.Component<IFashionShopProps , IFashionShopState>
+export class FashionShop extends React.Component<ISuperProps , IFashionShopState>
 {
     private _menuItems: ICollapsingMenuItem[] = [
         {
@@ -52,13 +64,14 @@ export class FashionShop extends React.Component<IFashionShopProps , IFashionSho
     private _totalOffersCount: number = 0;
     private _averagePrice: number = 0;
     private _isDataLoaded: boolean = true;
+    private _waitedTerms: FashionOffersSearchTerms = null;
     //
     get sideMenuClasses(): string
     {
         return this.state.isMenuCollapsed ? 'afs-fashion-shop__side-menu_collapsed' : '';
     }
     //
-    constructor(props: IFashionShopProps)
+    constructor(props: ISuperProps )
     {
         super(props);
         this.state = {
@@ -69,17 +82,7 @@ export class FashionShop extends React.Component<IFashionShopProps , IFashionSho
         this._searchTermsChanged = this._searchTermsChanged.bind(this);
         this._mapToFashionCatalogItem = this._mapToFashionCatalogItem.bind(this);
         this._displaySearchResults = this._displaySearchResults.bind(this);
-        this._searchService.getFiltredOffers(new FashionOffersSearchTerms()).then(
-            (offers: FashionOffer[]) =>
-            {
-                this._onDataLoad(offers);
-            }
-        ).catch(
-            (reason) =>
-            {
-                console.log(reason);
-            }
-        );
+        this.props.loadOffers(new FashionOffersSearchTerms());
     }
     //
     public render(): JSX.Element
@@ -120,32 +123,42 @@ export class FashionShop extends React.Component<IFashionShopProps , IFashionSho
         );
     }
     //
+    public componentWillReceiveProps(newProps: ISuperProps): void
+    {
+        if (newProps.offersLoadingStatus !== 'loading_start')
+        {
+            console.log(newProps);
+            this._onDataLoad(newProps.offers);
+        }
+    }
+    private _loadData(terms: FashionOffersSearchTerms): void
+    {
+        if (this._isDataLoaded)
+        {
+            console.log('load');
+            this.props.loadOffers(terms);
+            this._isDataLoaded = false;
+            this._waitedTerms = null;
+        } else {
+            this._waitedTerms = terms;
+        }
+    }
     private _onDataLoad(searchResult: FashionOffer[]): void
     {
         this._averagePrice = parseFloat(this._calculateAveragePrive(searchResult).toFixed(2));
         this._totalOffersCount = searchResult.length;
-        this.setState(
-            (prevState: IFashionShopState) =>
-            {
-                prevState.offers = searchResult;
-                return prevState;
-            }
-        );
+        this._isDataLoaded = true;
+        if (this._waitedTerms)
+        {
+            this._averagePrice = 0;
+            this._totalOffersCount = 0;
+            this._loadData(this._waitedTerms);
+        }
     }
     private _searchTermsChanged(searchTerms: IFashionHeaderSearchInputsInfo): void
     {
         let terms = this._mapToFashionOffersSearchTerms(searchTerms);
-        this._searchService.getFiltredOffers(terms).then(
-            (offers: FashionOffer[]) =>
-            {
-                this._onDataLoad(offers);
-            }
-        ).catch(
-            (reason) =>
-            {
-                console.log(reason);
-            }
-        );
+        this._loadData(terms);
     }
     private _calculateAveragePrive(offers: FashionOffer[]): number
     {
@@ -160,7 +173,14 @@ export class FashionShop extends React.Component<IFashionShopProps , IFashionSho
     private _displaySearchResults(): JSX.Element
     {
         let result: JSX.Element;
-        if (this.state.offers.length === 0)
+        if (this.props.offersLoadingStatus === 'loading_start')
+        {
+            result = (
+                <div className="afs-fashion-shop__loading">
+                    <Loading/>
+                </div>
+            );
+        } else if (this.props.offers.length === 0)
         {
             result =  (
                 <div className="afs-fashion-shop__no-results">
@@ -171,7 +191,7 @@ export class FashionShop extends React.Component<IFashionShopProps , IFashionSho
         {
             result =  (
                 <FashionCatalog
-                    items={this._mapToFashionCatalogItem(this.state.offers)}
+                    items={this._mapToFashionCatalogItem(this.props.offers)}
                     header="Shop style"
                 />
             );
@@ -217,3 +237,12 @@ export class FashionShop extends React.Component<IFashionShopProps , IFashionSho
     }
     //
 }
+const mapStateToProps = (state: IAppState): IFashionShopProps => {
+    const offers = state.fashionOffersState.fashionOffers;
+    const offersLoadingStatus = state.fashionOffersState.loadingStatus;
+    return { offers, offersLoadingStatus };
+};
+const mapDispatchToProps = (dispatch: any): DispatchProps => ({
+    loadOffers: (values: FashionOffersSearchTerms) => dispatch(fashionOffersActions.loadFashionOffers(values))
+});
+export let FashionShopApp = connect(mapStateToProps, mapDispatchToProps )(FashionShop);

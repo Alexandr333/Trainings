@@ -13,6 +13,7 @@ interface ILoadingState
 
 export class Loading extends React.Component<ILoadingProps, ILoadingState>
 {
+    private _timer: any;
     constructor(props: any)
     {
         super(props);
@@ -20,23 +21,13 @@ export class Loading extends React.Component<ILoadingProps, ILoadingState>
             dotsNum: 0
         } as ILoadingState;
         this._createDots = this._createDots.bind(this);
-        setInterval(
+        this._timer = setInterval(
             () =>
             {
-                this.setState(
-                    (prevState: ILoadingState) =>
-                    {
-                        if (prevState.dotsNum > 3)
-                        {
-                            prevState.dotsNum = 0;
-                        }
-                        prevState.dotsNum++;
-                        return prevState;
-                    }
-                )
+                this._addDot();
             },
-            1000
-        )
+            500
+        );
     }
     public render(): JSX.Element
     {
@@ -50,6 +41,24 @@ export class Loading extends React.Component<ILoadingProps, ILoadingState>
                 </div>
 
             </div>
+        );
+    }
+    public componentWillUnmount(): void
+    {
+        clearInterval(this._timer);
+    }
+    private _addDot(): void
+    {
+        this.setState(
+            (prevState: ILoadingState) =>
+            {
+                if (prevState.dotsNum > 3)
+                {
+                    prevState.dotsNum = 0;
+                }
+                prevState.dotsNum++;
+                return prevState;
+            }
         );
     }
     private _createDots(): string

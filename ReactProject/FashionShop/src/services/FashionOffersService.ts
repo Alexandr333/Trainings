@@ -1,8 +1,7 @@
 import axios, {AxiosResponse, AxiosPromise} from 'axios';
 
-import { FashionOffer } from '../FashionOffer';
-import { FashionOffersSearchTerms } from '../FashionOffersSearchTerms';
 import * as offersData from '../assets/response-data-export.json';
+import { FashionOffersSearchTerms, FashionOffer } from '../models/index';
 
 export class FashionOffersService
 {
