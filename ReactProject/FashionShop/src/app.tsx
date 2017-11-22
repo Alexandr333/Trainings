@@ -1,7 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { FashionShop } from './components/afs-fashion-shop/afs-fashion-shop.component';
+import { FashionShop, FashionShopApp } from './components/afs-fashion-shop/afs-fashion-shop.component';
+import { Provider } from 'react-redux';
+import { appStore } from './store';
 
 interface IAppProps
 {
@@ -21,9 +23,11 @@ class App extends React.Component<IAppProps, IAppState>
     public render(): JSX.Element
     {
         return(
-            <div className="app">
-                <FashionShop/>
-            </div>
+            <Provider store={appStore}>
+                <div className="app">
+                    <FashionShopApp />
+                </div>
+            </Provider>
         );
     }
 }
