@@ -12,11 +12,12 @@ import { connect } from 'react-redux';
 import { fashionOffersActions } from '../../store/actions/index';
 import { FashionOffersSearchTerms, FashionOffer } from '../../models/index';
 import { IAppState } from '../../store/types';
-import { 
+import {
     HashRouter as Router,
     Route,
     Switch,
-    Redirect
+    Redirect,
+    RouteProps
 } from 'react-router-dom';
 
 interface IFashionShopProps
@@ -24,14 +25,17 @@ interface IFashionShopProps
     offers: FashionOffer[];
     offersLoadingStatus: string;
 }
+
 interface IFashionShopState
 {
     isMenuCollapsed: boolean;
     offers: FashionOffer[];
 }
+
 interface DispatchProps {
     loadOffers: (filterParams: FashionOffersSearchTerms) => void;
 }
+
 interface ISuperProps extends IFashionShopProps, DispatchProps
 {
 }
@@ -60,7 +64,6 @@ export class FashionShop extends React.Component<ISuperProps , IFashionShopState
             titleText: 'Fifth item',
         }
     ];
-    private _searchService: FashionOffersService;
     private _totalOffersCount: number = 0;
     private _averagePrice: number = 0;
     private _isDataLoaded: boolean = true;
@@ -78,7 +81,6 @@ export class FashionShop extends React.Component<ISuperProps , IFashionShopState
             isMenuCollapsed: false,
             offers: []
         } as IFashionShopState;
-        this._searchService = new FashionOffersService();
         this._searchTermsChanged = this._searchTermsChanged.bind(this);
         this._mapToFashionCatalogItem = this._mapToFashionCatalogItem.bind(this);
         this._displaySearchResults = this._displaySearchResults.bind(this);
