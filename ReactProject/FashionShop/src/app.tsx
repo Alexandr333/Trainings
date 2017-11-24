@@ -16,9 +16,9 @@ interface IAppState
 
 class App extends React.Component<IAppProps, IAppState>
 {
-    constructor()
+    constructor(props: IAppProps)
     {
-        super();
+        super(props);
     }
     public render(): JSX.Element
     {
