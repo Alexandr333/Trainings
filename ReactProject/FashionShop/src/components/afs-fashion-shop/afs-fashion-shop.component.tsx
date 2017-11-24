@@ -12,7 +12,7 @@ import { connect } from 'react-redux';
 import { fashionOffersActions } from '../../store/actions/index';
 import { FashionOffersSearchTerms, FashionOffer } from '../../models/index';
 import { IAppState } from '../../store/types';
-import { 
+import {
     HashRouter as Router,
     Route,
     Switch,
