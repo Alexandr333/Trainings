@@ -42,6 +42,6 @@ export const fashionOffersLoader: Middleware = <IAppState>(store: Store<IAppStat
             }
         },
         5000
-    )
+    );
     return returnValue;
 };
