@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --open --config webpack.development.js",
     "build": "webpack --config webpack.build.js",
     "production": "webpack --config webpack.production.js",
-    "watch": "webpack --watch",
+    "watch": "webpack --watch --config webpack.development.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Labanau Aliaksandr",

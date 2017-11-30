@@ -11,7 +11,8 @@ import { Loading } from '../afs-loading/afs-loading.component';
 import { connect } from 'react-redux';
 import { fashionOffersActions } from '../../store/actions/index';
 import { FashionOffersSearchTerms, FashionOffer } from '../../models/index';
-import { IAppState } from '../../store/types';
+import { IAppState } from '../../store/common.models';
+
 import {
     HashRouter as Router,
     Route,
@@ -19,6 +20,7 @@ import {
     Redirect,
     RouteProps
 } from 'react-router-dom';
+
 
 interface IFashionShopProps
 {

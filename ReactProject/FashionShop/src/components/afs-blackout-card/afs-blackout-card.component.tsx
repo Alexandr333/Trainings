@@ -2,16 +2,6 @@ import './afs-blackout-card.css';
 
 import * as React from 'react';
 
-interface IBlackoutCardProps
-{
-    backgroundURL?: string;
-}
-
-interface IBlackoutCardState
-{
-
-}
-
 export class BlackoutCard extends React.Component<IBlackoutCardProps , IBlackoutCardState>
 {
     constructor(props: IBlackoutCardProps)

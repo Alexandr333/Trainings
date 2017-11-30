@@ -1,6 +1,5 @@
-import { IAction } from '../types';
 import { FashionOffersSearchTerms, FashionOffer, IFashionOffersLoadResult } from '../../models/index';
-import { actionCreator } from '../actionCreator';
+import { actionCreator } from '../common.models';
 import * as actionTypes from './fashion-offers.action.types';
 
 export const loadFashionOffers = actionCreator<FashionOffersSearchTerms>(actionTypes.LOAD_FASHION_OFFERS);

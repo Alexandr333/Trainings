@@ -1,9 +1,9 @@
 import { Middleware, MiddlewareAPI, Action } from 'redux';
 import { Store, Dispatch} from 'react-redux';
-import { IAppState, IAction } from '../types';
 import { fashionOffersActions , fashionOffersActionsTypes} from '../actions';
 import { FashionOffersService } from '../../services/index';
 import { FashionOffersSearchTerms, FashionOffer, IFashionOffersLoadResult } from '../../models/index';
+import { IAction } from '../common.models';
 
 export const fashionOffersLoader: Middleware = <IAppState>(store: Store<IAppState>) => (next: Dispatch<any>) => (action: Action): any =>
 {

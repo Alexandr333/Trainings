@@ -2,7 +2,7 @@ import { createStore, applyMiddleware, compose } from 'redux';
 
 import { reducers } from './reducers';
 import * as middleware from './middleware';
-import { IAppState } from './types';
+import { IAppState } from './common.models';
 
 export const appStore = createStore<IAppState>(
     reducers,

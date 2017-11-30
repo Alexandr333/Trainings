@@ -1,7 +1,7 @@
 import { fashionOffersActionsTypes } from '../actions';
 import { Action } from 'redux';
-import { IAction, IFashionOffersState } from '../types';
 import { IFashionOffersLoadResult } from '../../models/index';
+import { IFashionOffersState, IAction } from '../common.models';
 
 const initState: IFashionOffersState = {
     fashionOffers: [],
