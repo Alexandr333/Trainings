@@ -2,15 +2,9 @@ import './afs-titled-label.css';
 
 import * as React from 'react';
 
-interface ITitledLabelProps
-{
-    label: string;
-    title: string;
-}
+import { ITitledLabelProps, ITitledLabelState } from './afs-titled-label.model';
 
-interface ITitledLabelState
-{
-}
+
 
 export class TitledLabel extends React.Component<ITitledLabelProps , ITitledLabelState>
 {

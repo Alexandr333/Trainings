@@ -1,5 +1,6 @@
 export class FashionOffer
 {
+    public id: string;
     public title: string;
     public price: number;
     public currency: string;

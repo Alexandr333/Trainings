@@ -9,9 +9,10 @@ module.exports = WebpackMerge(CommonConfig,
     {
         devtool: 'source-map',
         devServer: {
-          contentBase: './dist',
-          inline: true,
-          hot:true
+          historyApiFallback: true,
+          contentBase: './',
+          hot: true,
+          inline: true
         },
         plugins: [
           new webpack.NamedModulesPlugin(),

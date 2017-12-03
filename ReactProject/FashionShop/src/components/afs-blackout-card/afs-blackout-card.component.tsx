@@ -1,4 +1,5 @@
 import './afs-blackout-card.css';
+import { IBlackoutCardProps, IBlackoutCardState } from './afs-blackout-card.models';
 
 import * as React from 'react';
 

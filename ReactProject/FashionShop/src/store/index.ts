@@ -12,6 +12,6 @@ export const appStore = createStore<IAppState>(
             ? action(store.dispatch, store.getState)
             : next(action)
         ),
-        middleware.fashionOffersLoader
+        middleware.publicCatalogsMiddleware
     )
 );

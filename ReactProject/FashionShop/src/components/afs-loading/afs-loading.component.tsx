@@ -2,72 +2,36 @@ import './afs-loading.css';
 
 import * as React from 'react';
 
-interface ILoadingProps
-{
+import { ILoadingProps, ILoadingState } from './afs-loading.models';
 
-}
-interface ILoadingState
-{
-    dotsNum: number;
-}
+
 
 export class Loading extends React.Component<ILoadingProps, ILoadingState>
 {
-    private _timer: any;
-    constructor(props: any)
+    constructor(props: ILoadingProps)
     {
         super(props);
-        this.state = {
-            dotsNum: 0
-        } as ILoadingState;
-        this._createDots = this._createDots.bind(this);
-        this._timer = setInterval(
-            () =>
-            {
-                this._addDot();
-            },
-            500
-        );
     }
     public render(): JSX.Element
     {
         return(
             <div className="afs-loading">
-                <div className="afs-loading__title">
-                    Loading please wait
-                    <span className="afs-loading__dots">
-                        {this._createDots()}
-                    </span>
+                <div className="afs-loading-title">Loading</div>
+                <div className="sk-fading-circle">
+                    <div className="sk-circle1 sk-circle"/>
+                    <div className="sk-circle2 sk-circle"/>
+                    <div className="sk-circle3 sk-circle"/>
+                    <div className="sk-circle4 sk-circle"/>
+                    <div className="sk-circle5 sk-circle"/>
+                    <div className="sk-circle6 sk-circle"/>
+                    <div className="sk-circle7 sk-circle"/>
+                    <div className="sk-circle8 sk-circle"/>
+                    <div className="sk-circle9 sk-circle"/>
+                    <div className="sk-circle10 sk-circle"/>
+                    <div className="sk-circle11 sk-circle"/>
+                    <div className="sk-circle12 sk-circle"/>
                 </div>
-
             </div>
         );
-    }
-    public componentWillUnmount(): void
-    {
-        clearInterval(this._timer);
-    }
-    private _addDot(): void
-    {
-        this.setState(
-            (prevState: ILoadingState) =>
-            {
-                if (prevState.dotsNum > 3)
-                {
-                    prevState.dotsNum = 0;
-                }
-                prevState.dotsNum++;
-                return prevState;
-            }
-        );
-    }
-    private _createDots(): string
-    {
-        let str: string = '';
-        for (let i = 1 ; i < this.state.dotsNum ; i++)
-        {
-            str += '.';
-        }
-        return str;
     }
 }

@@ -22,7 +22,7 @@ module.exports = {
           test: /\.tsx?$/,
           enforce: 'pre',
           loader: 'tslint-loader',
-          exclude:/node_modules/
+          exclude: /node_modules/
         },
         {
           test: /\.css$/,

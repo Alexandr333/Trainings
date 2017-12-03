@@ -1,1 +1,1 @@
-export * from './fahionOffersLoader.middleware';
+export * from './public-catalogs.middleware';

@@ -2,22 +2,9 @@ import './afs-validated-input.css';
 
 import * as React from 'react';
 
-interface IValidatedInputProps
-{
-    placeholder: string;
-    onChange: (newValue: string) => void;
-    validateFunc: (value: string) => IValidationResult;
-}
-interface IValidatedInputState
-{
-    valid: boolean|null;
-    validationMessage: string;
-}
-export interface IValidationResult
-{
-    valid: boolean|null;
-    validationMessage: string;
-}
+import { IValidatedInputState, IValidatedInputProps } from './afs-validated-input.models';
+
+
 
 export class ValidatedInput extends React.Component<IValidatedInputProps, IValidatedInputState>
 {

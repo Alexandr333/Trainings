@@ -1,27 +1,7 @@
 import './afs-collapsing-menu.css';
 
 import * as React from 'react';
-
-interface ICollapsingMenuProps
-{
-    titleIconURL?: string;
-    titleText?: string;
-    items?: ICollapsingMenuItem[];
-    onStateChange: (isCollapsed: boolean) => void;
-    isCollapsed: boolean;
-}
-
-interface ICollapsingMenuState
-{
-    isCollapsed: boolean;
-    items?: ICollapsingMenuItem[];
-}
-
-export interface ICollapsingMenuItem
-{
-   iconURL: string;
-   titleText: string;
-}
+import { ICollapsingMenuProps, ICollapsingMenuState } from './afs-collapsing-menu.models';
 
 export class CollapsingMenu extends React.Component<ICollapsingMenuProps , ICollapsingMenuState>
 {
@@ -51,7 +31,7 @@ export class CollapsingMenu extends React.Component<ICollapsingMenuProps , IColl
                     </div>
                 </div>
                 <div className="afs-collapsing-menu__items">
-                    {this._createMenuItems()}
+                    {this._createMenuItems()}{this.props.children}
                 </div>
             </div>
         );

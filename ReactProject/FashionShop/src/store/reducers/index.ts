@@ -1,9 +1,11 @@
-import { fashionOffersReducer } from './fashion-offers.reducer';
 import { combineReducers } from 'redux';
 import { IAppState } from '../common.models';
+import { publicCatalogsReducer } from './public-catalogs.reducer';
+import { fashionOffersSearchTermsReducer } from './fashion-offers-search-terms.reducer';
 
 export const reducers = combineReducers<IAppState>(
     {
-        fashionOffersState: fashionOffersReducer
+        publicCatalogsState: publicCatalogsReducer,
+        fashionOffersSearchTermsState: fashionOffersSearchTermsReducer
     }
 );

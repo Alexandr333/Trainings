@@ -1,19 +1,7 @@
 import './afs-fashion-card.css';
 
 import * as React from 'react';
-
-interface IFashionCardProps
-{
-    offerTitle: string;
-    price: string;
-    firstButtonTitle: string;
-    secondButtonTitle: string;
-}
-
-interface IFashionCardState
-{
-
-}
+import { IFashionCardProps, IFashionCardState } from './afs-fashion-card.models';
 
 export class FashionCard extends React.Component<IFashionCardProps , IFashionCardState>
 {

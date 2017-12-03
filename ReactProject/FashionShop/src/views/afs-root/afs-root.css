@@ -1,0 +1,28 @@
+.afs-root
+{
+    font-family: "Comic Sans MS", sans-serif;
+}
+.afs-root__container
+{
+    width:100vw;
+    height:100vh;
+
+    display: flex;
+    flex-direction: row;
+}
+.afs-root__side-menu
+{
+    flex-grow: 1;
+
+    padding: 15px;
+
+    overflow-y: auto;
+}
+.afs-root__content
+{
+    width: 100%;
+
+    flex-grow: 0;
+
+    overflow-y: auto;
+}

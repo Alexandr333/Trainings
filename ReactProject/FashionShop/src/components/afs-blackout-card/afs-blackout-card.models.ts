@@ -1,9 +1,9 @@
-interface IBlackoutCardProps
+export interface IBlackoutCardProps
 {
     backgroundURL?: string;
 }
 
-interface IBlackoutCardState
+export interface IBlackoutCardState
 {
 
 }

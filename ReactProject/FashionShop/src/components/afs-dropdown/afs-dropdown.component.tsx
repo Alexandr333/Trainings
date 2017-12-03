@@ -1,33 +1,23 @@
 import './afs-dropdown.css';
 
 import * as React from 'react';
+import { IDropdownProps, IDropdownState, IDropdownElement } from './afs-dropdown.models';
 
-interface IDropdownProps
-{
-    placeholder: string;
-    selectedItemIndex?: number|null;
-    items: IDropdownElement[];
-    onSelect: (selectedItemKey: string) => void;
-}
-interface IDropdownState
-{
-    selectedItemIndex: number|null;
-    isDropdownOpened: boolean;
-}
-export interface IDropdownElement
-{
-    value: string;
-    key: string;
-}
 export class Dropdown extends React.Component<IDropdownProps , IDropdownState>
 {
+    private _isInitItemsDisplayed: boolean = false;
     constructor(props: IDropdownProps)
     {
         super(props);
+        this._isInitItemsDisplayed = (props.selectedItemIndex in props.items) ? true : false;
         this.state = {
             selectedItemIndex: (props.selectedItemIndex in props.items) ? props.selectedItemIndex : null,
             isDropdownOpened: false,
         } as IDropdownState;
+        if ( props.selectedItemIndex in props.items )
+        {
+            this.props.onSelect(props.items[props.selectedItemIndex].key);
+        }
         this._setNewDropdownCondition = this._setNewDropdownCondition.bind(this);
     }
     //
@@ -58,8 +48,10 @@ export class Dropdown extends React.Component<IDropdownProps , IDropdownState>
                     className="afs-dropdown__header"
                     onClick={this._setNewDropdownCondition}
                 >
-                    <div className="afs-dropdown__item afs-dropdown__item_selected">
-                        {this._selectedValue}
+                    <div className="afs-dropdown__selected-item-container">
+                        <div className="afs-dropdown__item afs-dropdown__item_selected">
+                            {this._selectedValue}
+                        </div>
                     </div>
                     <div className="afs-dropdown__button">
                         <div className="afs-dropdown__button-content"/>

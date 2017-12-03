@@ -42,6 +42,8 @@
 }
 .afs-collapsing-menu__item-text{
     margin-left: 10px;
+
+    min-width: 190px;
 }
 .afs-collapsing-menu_collapsed .afs-collapsing-menu__title-text,
 .afs-collapsing-menu_collapsed .afs-collapsing-menu__item-text{

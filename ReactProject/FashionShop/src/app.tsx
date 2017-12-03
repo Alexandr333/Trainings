@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { FashionShop, FashionShopApp } from './components/afs-fashion-shop/afs-fashion-shop.component';
 import { Provider } from 'react-redux';
 import { appStore } from './store';
+import { Root } from './views/afs-root/index';
 
 interface IAppProps
 {
@@ -25,7 +25,7 @@ class App extends React.Component<IAppProps, IAppState>
         return(
             <Provider store={appStore}>
                 <div className="app">
-                    <FashionShopApp />
+                    <Root/>
                 </div>
             </Provider>
         );
